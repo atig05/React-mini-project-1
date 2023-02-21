@@ -75,7 +75,7 @@ class App extends React.Component{
 				onDecreaseQty={this.handleDecreaseQty}
 				onDelete={this.handleDeleteItem}
 			/>
-			<div style={{fontSize:20, padding: 25}}>Total: {this.getTotalPrice(this.state)}</div>
+			<div style={{fontSize:20, padding: 100}}>Total: {this.getTotalPrice(this.state)}</div>
 		</div>
 	  );
   }
